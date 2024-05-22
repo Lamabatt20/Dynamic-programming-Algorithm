@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="691.0" prefWidth="921.0" styleClass="root2" stylesheets="@../Style/sty.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Application.ResultPageController">
+   <children>
+      <Label layoutX="114.0" layoutY="52.0" prefHeight="93.0" prefWidth="252.0" text="Results" textFill="#eaeaea">
+         <font>
+            <Font name="Bernard MT Condensed" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="226.0" layoutY="172.0" text="Cost" textFill="#293d5b">
+         <font>
+            <Font name="Footlight MT Light" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="costtext" layoutX="292.0" layoutY="168.0" prefHeight="26.0" prefWidth="143.0" />
+      <Label layoutX="507.0" layoutY="172.0" text="Path" textFill="#293d5b">
+         <font>
+            <Font name="Footlight MT Light" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="pathtext" layoutX="572.0" layoutY="168.0" prefHeight="26.0" prefWidth="193.0" />
+      <Label layoutX="209.0" layoutY="290.0" text="DP table" textFill="#293d5b">
+         <font>
+            <Font name="Footlight MT Light" size="18.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="textarea" layoutX="525.0" layoutY="334.0" prefHeight="314.0" prefWidth="356.0" />
+      <Label layoutX="610.0" layoutY="290.0" prefHeight="19.0" prefWidth="185.0" text="The alternatives result" textFill="#293d5b">
+         <font>
+            <Font name="Footlight MT Light" size="18.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="tabelresult" layoutX="86.0" layoutY="334.0" prefHeight="314.0" prefWidth="399.0" />
+   </children>
+</AnchorPane>

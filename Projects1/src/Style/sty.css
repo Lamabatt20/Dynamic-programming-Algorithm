@@ -1,0 +1,16 @@
+.root{
+-fx-background-image:url('../Image/background.jpg');
+-fx-background-size:cover;
+}
+
+.button-color{
+-fx-background-color:#e1f5fe;
+}
+
+.root2{
+-fx-background-image:url('../Image/downl.jpg');
+-fx-background-size:cover;
+}
+
+
+
